@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CRM App Test Automation" duration-ms="45758" started-at="2019-06-01T15:45:00Z" finished-at="2019-06-01T15:45:46Z">
+    <groups>
+    </groups>
+    <test name="CRM APP Test" duration-ms="45758" started-at="2019-06-01T15:45:00Z" finished-at="2019-06-01T15:45:46Z">
+      <class name="com.crm.testcases.HomePageTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.crm.testcases.HomePageTest@4501b7af]" name="SetUp" is-config="true" duration-ms="13808" started-at="2019-06-01T21:15:30Z" finished-at="2019-06-01T21:15:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="ValidateCRMHomepage()[pri:0, instance:com.crm.testcases.HomePageTest@4501b7af]" name="ValidateCRMHomepage" duration-ms="1475" started-at="2019-06-01T21:15:44Z" finished-at="2019-06-01T21:15:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateCRMHomepage -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.crm.testcases.HomePageTest@4501b7af]" name="quit" is-config="true" duration-ms="723" started-at="2019-06-01T21:15:45Z" finished-at="2019-06-01T21:15:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.crm.testcases.HomePageTest -->
+      <class name="com.crm.testcases.LoginTest">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.crm.testcases.LoginTest@8bd1b6a]" name="SetUp" is-config="true" duration-ms="13072" started-at="2019-06-01T21:15:00Z" finished-at="2019-06-01T21:15:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="ValidateTitle()[pri:0, instance:com.crm.testcases.LoginTest@8bd1b6a]" name="ValidateTitle" duration-ms="229" started-at="2019-06-01T21:15:13Z" finished-at="2019-06-01T21:15:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateTitle -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.crm.testcases.LoginTest@8bd1b6a]" name="quit" is-config="true" duration-ms="761" started-at="2019-06-01T21:15:13Z" finished-at="2019-06-01T21:15:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.crm.testcases.LoginTest@8bd1b6a]" name="SetUp" is-config="true" duration-ms="7656" started-at="2019-06-01T21:15:14Z" finished-at="2019-06-01T21:15:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="validatelogin()[pri:0, instance:com.crm.testcases.LoginTest@8bd1b6a]" name="validatelogin" duration-ms="7211" started-at="2019-06-01T21:15:22Z" finished-at="2019-06-01T21:15:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatelogin -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.crm.testcases.LoginTest@8bd1b6a]" name="quit" is-config="true" duration-ms="792" started-at="2019-06-01T21:15:29Z" finished-at="2019-06-01T21:15:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.crm.testcases.LoginTest -->
+    </test> <!-- CRM APP Test -->
+  </suite> <!-- CRM App Test Automation -->
+</testng-results>
