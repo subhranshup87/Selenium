@@ -1,8 +1,0 @@
-<suite name="CRM App Test Automation">
-	<test name="CRM APP Test">
-		<classes>
-			<class name="com.crm.testcases.LoginTest" />
-			<class name="com.crm.testcases.HomePageTest" />
-		</classes>
-	</test>
-</suite>
