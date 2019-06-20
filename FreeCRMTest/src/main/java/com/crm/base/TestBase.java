@@ -16,11 +16,11 @@ public class TestBase {
 
 	public static WebDriver driver;
 	public static Properties prop;
-	
+	//Constructor
 	public TestBase() {
 		prop = new Properties();
 		try {
-			FileInputStream fp = new FileInputStream("D:\\Selenium\\Selenium_Test\\FreeCRMTest\\src\\main\\java\\com\\crm\\config\\config.properties");
+			FileInputStream fp = new FileInputStream("C:\\Users\\AASHU\\git\\Selenium\\FreeCRMTest\\src\\main\\java\\com\\crm\\config\\config.properties");
 			prop.load(fp);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();

@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [CRM App Test Automation]">
+  <test name="CRM APP Test(failed)">
     <classes>
       <class name="com.crm.testcases.LoginTest">
         <methods>
           <include name="quit"/>
-          <include name="validatelogin"/>
+          <include name="ValidateTitle"/>
           <include name="SetUp"/>
         </methods>
       </class> <!-- com.crm.testcases.LoginTest -->
+      <class name="com.crm.testcases.HomePageTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.crm.testcases.HomePageTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- CRM APP Test(failed) -->
+</suite> <!-- Failed suite [CRM App Test Automation] -->
